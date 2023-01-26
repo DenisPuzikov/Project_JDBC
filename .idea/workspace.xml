@@ -9,16 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82ce7c6f-c8af-45b1-b40e-fcaa2db37469" name="Changes" comment="First commit with model Person">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/puzikovAston/Controller/PeopleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/puzikovAston/Controller/PeopleControllerBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="82ce7c6f-c8af-45b1-b40e-fcaa2db37469" name="Changes" comment="Workable App with JBDC, added show and new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/puzikovAston/Controller/PeopleControllerBuilder.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674714525138</updated>
-      <workItem from="1674714526732" duration="6942000" />
+      <workItem from="1674714526732" duration="8637000" />
     </task>
     <task id="LOCAL-00001" summary="First commit with model Person">
       <created>1674717683043</created>
@@ -180,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674717683043</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Workable App with JBDC, added show and new">
+      <created>1674721771862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674721771862</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +199,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit with model Person" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit with model Person" />
+    <MESSAGE value="Workable App with JBDC, added show and new" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workable App with JBDC, added show and new" />
   </component>
 </project>
