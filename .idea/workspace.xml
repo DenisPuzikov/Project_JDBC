@@ -9,9 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82ce7c6f-c8af-45b1-b40e-fcaa2db37469" name="Changes" comment="CRUD App with only JDBC, added methods: save, show, update, delete with using of PreparedStatement.">
+    <list default="true" id="82ce7c6f-c8af-45b1-b40e-fcaa2db37469" name="Changes" comment="App with JDBC Template">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/puzikovAston/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/puzikovAston/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/puzikovAston/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/puzikovAston/dao/PersonDAO.java" afterDir="false" />
     </list>
@@ -60,8 +61,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -171,7 +172,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674714525138</updated>
-      <workItem from="1674714526732" duration="10533000" />
+      <workItem from="1674714526732" duration="11818000" />
     </task>
     <task id="LOCAL-00001" summary="First commit with model Person">
       <created>1674717683043</created>
@@ -194,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674723353758</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="App with JDBC Template">
+      <created>1674725893424</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674725893424</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,19 +213,22 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="feature" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -227,6 +238,7 @@
     <MESSAGE value="First commit with model Person" />
     <MESSAGE value="Workable App with JBDC, added show and new" />
     <MESSAGE value="CRUD App with only JDBC, added methods: save, show, update, delete with using of PreparedStatement." />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD App with only JDBC, added methods: save, show, update, delete with using of PreparedStatement." />
+    <MESSAGE value="App with JDBC Template" />
+    <option name="LAST_COMMIT_MESSAGE" value="App with JDBC Template" />
   </component>
 </project>
