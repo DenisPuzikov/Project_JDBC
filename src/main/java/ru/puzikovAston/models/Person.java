@@ -1,28 +1,40 @@
 package ru.puzikovAston.models;
 
+
+
+import jakarta.persistence.*;
+
+
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
+@Entity
+@Table(name = "Person")
 public class Person {
+    @Id
+    @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @NotEmpty(message = "Should not be empty")
     @Size(min = 2, max = 20, message = "min 2, max 20")
+    @Column(name = "name")
     private String name;
 
+    @Column(name = "age")
     @Min(value = 0, message = "Should be greater than 0")
     private int age;
 
     @NotEmpty
     @Email
+    @Column(name = "email")
     private String email;
 
     public Person(){}
 
-    public Person(int id, String name, int age, String email) {
-        this.id = id;
+    public Person(String name, int age, String email) {
         this.name = name;
         this.age = age;
         this.email = email;
@@ -58,5 +70,15 @@ public class Person {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", email='" + email + '\'' +
+                '}';
     }
 }
