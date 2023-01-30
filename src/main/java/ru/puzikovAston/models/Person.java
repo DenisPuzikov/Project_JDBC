@@ -1,9 +1,6 @@
 package ru.puzikovAston.models;
 
-
-
 import jakarta.persistence.*;
-
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Min;
